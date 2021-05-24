@@ -1,6 +1,5 @@
 from shutil import rmtree
 import uuid
-#from sets import Set
 from testify import TestCase, setup, assert_equal, class_setup, teardown
 from lib.model.keycolumnvaluestore import KeyColumnValueStore
 from collections import OrderedDict

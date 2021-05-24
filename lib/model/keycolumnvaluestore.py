@@ -119,7 +119,8 @@ class KeyColumnValueStore(object):
         for k, v in OrderedDict(sorted(self.datastore[key].items(),
                                 key=lambda t: t[0])).items():
             if (
-                (start is not None and stop is not None and k >= start and k <= stop) 
+                (start is not None and stop is not None
+                    and k >= start and k <= stop)
                 or (start is not None and k >= start and stop is None)
                     or (start is None and stop is not None and k <= stop)):
                 myitems.append((k, v))
