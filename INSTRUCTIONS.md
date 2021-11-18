@@ -1,4 +1,4 @@
-All Around The World coding test for backend Perl developers
+Coding test for backend Perl developers
 
 The Synopsis
 ============
